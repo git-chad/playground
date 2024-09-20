@@ -31,3 +31,44 @@ body {
     text-wrap: balance;
   }
 }
+
+.area-variable--regular {
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "INKT" 0, "slnt" 0, "wdth" 100, "wght" 200;
+}
+
+.area-variable--semibold {
+  font-family: "area-variable", sans-serif;
+  font-variation-settings: "INKT" 0, "slnt" 0, "wdth" 100, "wght" 500;
+}
+
+.paradroid--regular {
+  font-family: "paradroid-mono-soft", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paradroid--bold {
+  font-family: "paradroid-mono-soft", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pos-1 { grid-area: 1 / 1; }
+.pos-2 { grid-area: 1 / 3; }
+.pos-3 { grid-area: 1 / 4; }
+.pos-4 { grid-area: 1 / 5; }
+.pos-5 { grid-area: 1 / 7; }
+.pos-6 { grid-area: 2 / 1; }
+.pos-7 { grid-area: 2 / 3; }
+.pos-8 { grid-area: 2 / 4; }
+.pos-9 { grid-area: 2 / 6; }
+.pos-10 { grid-area: 2 / 7; }
+.pos-11 { grid-area: 2 / 8; }
+.pos-12 { grid-area: 3 / 1; }
+.pos-13 { grid-area: 3 / 2; }
+.pos-14 { grid-area: 3 / 4; }
+.pos-15 { grid-area: 3 / 5; }
+.pos-16 { grid-area: 3 / 7; }
+.pos-17 { grid-area: 3 / 8; }
+.pos-18 { grid-area: 2 / 5; }
